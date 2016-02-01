@@ -1,0 +1,13 @@
+{
+    "name": "etudiant/gclf",
+    "description": "Gestion de copies legales de films",
+    "authors": [
+        {
+            "name": "Fabien Ney",
+            "email": "fabe@hotmail.de"
+        }
+    ],
+    "require": {
+        "jleagle/omdb-imdb-api-client": "^0.1.0"
+    }
+}

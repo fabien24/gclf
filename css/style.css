@@ -1,0 +1,135 @@
+/* Header */
+ul{
+	list-style: none;
+	margin-top: 0px;
+}
+li{
+	display: inline-block;
+}
+.menu{
+	font-size: 0.8rem;
+	padding-left: 20px;
+}
+.search{
+	float: right;
+}
+.search input{
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+}
+header{
+	margin-top: 40px;
+	border-bottom: solid 1px grey;
+}
+
+/* mise en page de la form */
+.gestion{
+	border: solid black 2px;
+	width: 500px;
+	box-sizing:border-box;
+	padding: 20px;
+	margin: auto;
+}
+label{
+	color: grey;
+	vertical-align: top;
+}
+h2{
+	text-decoration: underline;
+	color: grey;
+	text-align: center;
+}
+.gestion input{
+	border-radius: 4px;
+	margin-bottom: 10px;
+	width: 300px;
+
+}
+.gestion textarea{
+	border-radius: 4px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 70px;
+
+}
+select{
+	margin-bottom: 10px;
+	width: 200px;
+
+}
+#valid{
+	margin-bottom: 0px;
+	width: 60px;
+	border-style: solid;
+}
+/* Mise en page du champ de autoremplissage recherche imdb */
+.remplissage{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.remplissage input{
+	border-radius: 4px;
+}
+/* Catalogue ***************************************************************************** */
+.form{
+	float: right;
+	width: 50px;
+}
+img{
+	height: 140px;
+	width: 100px;
+	float: left;
+	margin-right: 60px;
+	box-shadow: 7px -7px 30px 5px grey;
+}
+.contenu{
+	width: 70%;
+	height: 140px;
+}
+article{
+	width: 80%;
+	margin: auto;
+}
+.filmId{
+	color: blue;
+	margin-right: 30px;
+}
+.filmTitre{
+	font-weight: bold;
+	color: black;
+}
+section{
+	margin-top: 60px;
+}
+.pagination{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.pagination a{
+	text-decoration: none;
+	color: blue;
+}
+/* Détails *********************************************************************/
+#left{
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+#left img{
+	height: 250px;
+	width: 210px;
+}
+#categorie{
+	float: right;
+}
+#right {
+	text-align: justify;
+	font-size: 1.2rem;
+}
+#section{
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+}
